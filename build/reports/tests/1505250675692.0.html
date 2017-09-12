@@ -1,0 +1,116 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" ng-app="appFix" class="ng-scope"><head><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
+    <meta charset="utf-8" />
+    <title ng-bind="($title || 'Welcome to application for Fix')" class="ng-binding">Калькулятор</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width" />
+    <link href="http://rulkov.ru/qa/app.min.css" rel="stylesheet" />
+    <script src="http://rulkov.ru/qa/app.min.js"></script>
+	<base href="http://rulkov.ru/qa/" />
+</head>
+<body>
+<!--[if lt IE 10]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<div>
+    <acme-navbar class="ng-isolate-scope"><nav class="navbar navbar-static-top navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="/">
+                <span class="glyphicon glyphicon-home"></span>
+            </a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-6">
+            <ul class="nav navbar-nav">
+                <li class="active"><a ng-href="/" href="/">Home</a></li>
+                <!--<li><a ng-href="/about">About</a></li>-->
+                <li><a ng-href="/qa/addition" href="/qa/addition">Операция сложения</a></li>
+                <li><a ng-href="/qa/login" href="/qa/login">Login</a></li>
+                <li><a ng-href="/qa/logout" href="/qa/logout">logout</a></li>
+            </ul>
+
+        </div>
+    </div>
+</nav>
+</acme-navbar>
+</div>
+
+
+<!-- uiView:  --><div ui-view="" class="ng-scope" style=""><div class="container ng-scope">
+    <h1>Операция сложения</h1>
+
+    <div class="row">
+        <div class="col-sm-6 col-md-6 col-lg-6 hidden-xs">
+            <h3 class="ng-binding">Привет, QWA!</h3> <br />
+            <div class="animate-switch-container" ng-switch="" on="vm.calculator">
+                <!-- ngSwitchWhen: 0 --><div class="animate-switch ng-scope" ng-switch-when="0" style="">
+                    <h4>Шаг "Ввод данных".</h4>
+                    Содержит три текстовых поля, обязательных к заполнению, формат вводимых данных - целые положительные числа.
+                </div><!-- end ngSwitchWhen: -->
+                <!-- ngSwitchWhen: 1 -->
+                <!-- ngSwitchWhen: 2 -->
+                <!-- ngSwitchWhen: 3 -->
+            </div>
+        </div>
+
+        <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12" style="background-color: #F7FFF9;">
+            <fix-calculator index="vm.calculator" class="ng-isolate-scope"><div class="calculator">
+    <div class="steps  slide-left" ng-class="vm.slideDir" style="">
+
+        <!--step1-->
+        <!-- ngIf: vm.steps[0] --><div ng-if="vm.steps[0]" class="ng-scope" style="">
+            <h4>Ввод данных</h4>
+            <form name="formSum" role="form" class="ng-pristine ng-invalid ng-invalid-required">
+                <div class="form-group" ng-class="{ 'has-error': formSum.value1.$dirty &amp;&amp; formSum.value1.$error.required  }">
+                    <label class="control-label" for="value1">Значение 1</label>
+                    <input type="text" class="form-control ng-pristine ng-untouched ng-invalid ng-invalid-required" id="value1" name="value1" aria-describedby="helpBlock1" ng-model="vm.number[0]" numbers-only="numbers-only" ng-change="vm.change()" required="" />
+                    <span id="helpBlock1" class="help-block ng-hide" ng-show="formSum.value1.$dirty &amp;&amp; formSum.value1.$error.required">
+                        Обязательное поле для заполнения
+                    </span>
+                </div>
+
+                <div class="form-group" ng-class="{ 'has-error': formSum.value2.$dirty &amp;&amp; formSum.value2.$error.required  }">
+                    <label class="control-label" for="value1">Значение 2</label>
+                    <input type="text" class="form-control ng-pristine ng-untouched ng-invalid ng-invalid-required" id="value2" name="value2" aria-describedby="helpBlock2" ng-model="vm.number[1]" numbers-only="numbers-only" ng-change="vm.change()" required="" />
+                    <span id="helpBlock2" class="help-block ng-hide" ng-show="formSum.value2.$dirty &amp;&amp; formSum.value2.$error.required">
+                        Обязательное поле для заполнения
+                    </span>
+                </div>
+
+                <div class="form-group" ng-class="{ 'has-error': formSum.value3.$dirty &amp;&amp; formSum.value3.$error.required  }">
+                    <label class="control-label" for="value3">Значение 3</label>
+                    <input type="text" class="form-control ng-pristine ng-untouched ng-invalid ng-invalid-required" id="value3" name="value3" aria-describedby="helpBlock3" ng-model="vm.number[2]" numbers-only="numbers-only" ng-change="vm.change()" required="" />
+                    <span id="helpBlock3" class="help-block ng-hide" ng-show="formSum.value3.$dirty &amp;&amp; formSum.value3.$error.required">
+                        Обязательное поле для заполнения
+                    </span>
+                </div>
+                <!--<b> {{ vm.number | json }}</b>-->
+            </form>
+        </div><!-- end ngIf: vm.steps[0] -->
+
+        <!--step2-->
+        <!-- ngIf: vm.steps[1] -->
+
+        <!--step3-->
+        <!-- ngIf: vm.steps[2] -->
+
+        <!--step4-->
+        <!-- ngIf: vm.steps[3] -->
+    </div>
+
+    <div class="buttons">
+        <input type="button" value="Назад" class="btn btn-success" ng-disabled="vm.index == 0 || vm.isEnabledBtnBack" ng-click="vm.prev()" disabled="disabled" />
+        <input type="button" value="Вперед" class="btn btn-success" ng-disabled="vm.isEnabledBtnNext" ng-click="vm.next()" disabled="disabled" />
+    </div>
+
+</div></fix-calculator>
+        </div>
+    </div>
+</div>
+</div>
+
+
+
+
+</body></html>
