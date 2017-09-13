@@ -1,0 +1,89 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" ng-app="appFix" class="ng-scope"><head><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
+    <meta charset="utf-8" />
+    <title ng-bind="($title || 'Welcome to application for Fix')" class="ng-binding">Домашняя страница</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width" />
+    <link href="http://rulkov.ru/qa/app.min.css" rel="stylesheet" />
+    <script src="http://rulkov.ru/qa/app.min.js"></script>
+	<base href="http://rulkov.ru/qa/" />
+</head>
+<body>
+<!--[if lt IE 10]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<div>
+    <acme-navbar class="ng-isolate-scope"><nav class="navbar navbar-static-top navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="/">
+                <span class="glyphicon glyphicon-home"></span>
+            </a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-6">
+            <ul class="nav navbar-nav">
+                <li class="active"><a ng-href="/" href="/">Home</a></li>
+                <!--<li><a ng-href="/about">About</a></li>-->
+                <li><a ng-href="/qa/addition" href="/qa/addition">Операция сложения</a></li>
+                <li><a ng-href="/qa/login" href="/qa/login">Login</a></li>
+                <li><a ng-href="/qa/logout" href="/qa/logout">logout</a></li>
+            </ul>
+
+        </div>
+    </div>
+</nav>
+</acme-navbar>
+</div>
+
+
+<!-- uiView:  --><div ui-view="" class="ng-scope" style=""><div class="container books_list ng-scope">
+    <h1>Welcome</h1>
+    <p>В качестве Lorem Ipsum использовал каталог книг. Над которым я экспериментировал апи запросы.</p>
+    <br />
+
+    <md-grid-list md-cols-sm="2" md-cols-md="3" md-cols-lg="5" md-cols-gt-lg="6" md-gutter="10px" md-row-height="280px">
+        <!-- ngRepeat: book in main.books --><md-grid-tile ng-repeat="book in main.books" ng-click="main.clickBook( book.id )" class="book ng-scope">
+            <img class="pull-left" ng-src="https://storage.aggregion.com/api/files/c63c69e0097da2cbbb9d87008d0e3bc34ffb5295f78f4a0fa6fa7f2335e03f66/shared/data" alt="Pride and Prejudice" src="https://storage.aggregion.com/api/files/c63c69e0097da2cbbb9d87008d0e3bc34ffb5295f78f4a0fa6fa7f2335e03f66/shared/data" />
+
+        </md-grid-tile><!-- end ngRepeat: book in main.books --><md-grid-tile ng-repeat="book in main.books" ng-click="main.clickBook( book.id )" class="book ng-scope">
+            <img class="pull-left" ng-src="https://storage.aggregion.com/api/files/7371041a545ecbdeea64e620e28ef112df7a3cd1e930b791746c7be8d78419f2/shared/data" alt="Factfiles. Dinosaurs" src="https://storage.aggregion.com/api/files/7371041a545ecbdeea64e620e28ef112df7a3cd1e930b791746c7be8d78419f2/shared/data" />
+
+        </md-grid-tile><!-- end ngRepeat: book in main.books --><md-grid-tile ng-repeat="book in main.books" ng-click="main.clickBook( book.id )" class="book ng-scope">
+            <img class="pull-left" ng-src="https://storage.aggregion.com/api/files/fd7256e5ea6f239c8b842e4bd9066255de17f66d07b960428f4790a552ce7d73/shared/data" alt="The Lottery Winner" src="https://storage.aggregion.com/api/files/fd7256e5ea6f239c8b842e4bd9066255de17f66d07b960428f4790a552ce7d73/shared/data" />
+
+        </md-grid-tile><!-- end ngRepeat: book in main.books --><md-grid-tile ng-repeat="book in main.books" ng-click="main.clickBook( book.id )" class="book ng-scope">
+            <img class="pull-left" ng-src="https://storage.aggregion.com/api/files/c962862663ff1a52e2e34f85c1b578b422df10166a362803362347b7ab6d86bf/shared/data" alt="Cranford" src="https://storage.aggregion.com/api/files/c962862663ff1a52e2e34f85c1b578b422df10166a362803362347b7ab6d86bf/shared/data" />
+
+        </md-grid-tile><!-- end ngRepeat: book in main.books --><md-grid-tile ng-repeat="book in main.books" ng-click="main.clickBook( book.id )" class="book ng-scope">
+            <img class="pull-left" ng-src="https://storage.aggregion.com/api/files/59172ec8ca6f99d0611a4dbe912232b9070571c01cd30c0d130d7fc4285f4d0d/shared/data" alt="How Languages are Learned" src="https://storage.aggregion.com/api/files/59172ec8ca6f99d0611a4dbe912232b9070571c01cd30c0d130d7fc4285f4d0d/shared/data" />
+
+        </md-grid-tile><!-- end ngRepeat: book in main.books --><md-grid-tile ng-repeat="book in main.books" ng-click="main.clickBook( book.id )" class="book ng-scope">
+            <img class="pull-left" ng-src="https://storage.aggregion.com/api/files/f33576d14f99274acc82b27912b2d762406da7c13e04ba2bf8b7da611c0415a8/shared/data" alt="Beste Freunde A1/1. Deutsch für Jugendliche. Kursbuch mit MP3 zum Kursbuch" src="https://storage.aggregion.com/api/files/f33576d14f99274acc82b27912b2d762406da7c13e04ba2bf8b7da611c0415a8/shared/data" />
+
+        </md-grid-tile><!-- end ngRepeat: book in main.books --><md-grid-tile ng-repeat="book in main.books" ng-click="main.clickBook( book.id )" class="book ng-scope">
+            <img class="pull-left" ng-src="https://storage.aggregion.com/api/files/7983f62f361fea2213aa9f3589edaaaffe2045b32e47452503cc7f47d20a2151/shared/data" alt="Beste Freunde A1/1. Deutsch für Jugendliche. Arbeitsbuch mit MP3" src="https://storage.aggregion.com/api/files/7983f62f361fea2213aa9f3589edaaaffe2045b32e47452503cc7f47d20a2151/shared/data" />
+
+        </md-grid-tile><!-- end ngRepeat: book in main.books --><md-grid-tile ng-repeat="book in main.books" ng-click="main.clickBook( book.id )" class="book ng-scope">
+            <img class="pull-left" ng-src="https://storage.aggregion.com/api/files/75acd4b149386a26ec787164e79a95fef63944bc6aa2e160449d7ebb5a4fd117/shared/data" alt="Menschen A1/1. Kursbuch mit MP3 zum Kursbuch" src="https://storage.aggregion.com/api/files/75acd4b149386a26ec787164e79a95fef63944bc6aa2e160449d7ebb5a4fd117/shared/data" />
+
+        </md-grid-tile><!-- end ngRepeat: book in main.books --><md-grid-tile ng-repeat="book in main.books" ng-click="main.clickBook( book.id )" class="book ng-scope">
+            <img class="pull-left" ng-src="https://storage.aggregion.com/api/files/3c2b2876733356075e7254c9fa6ccea7d9854233242174cdaee95f9afdd7d28e/shared/data" alt="Menschen A1/1. Arbeitsbuch mit MP3" src="https://storage.aggregion.com/api/files/3c2b2876733356075e7254c9fa6ccea7d9854233242174cdaee95f9afdd7d28e/shared/data" />
+
+        </md-grid-tile><!-- end ngRepeat: book in main.books --><md-grid-tile ng-repeat="book in main.books" ng-click="main.clickBook( book.id )" class="book ng-scope">
+            <img class="pull-left" ng-src="https://storage.aggregion.com/api/files/3306b9fdcdc528a634d29c3f1a0badca1a570f3b41b980e760e6b48aa5b8afea/shared/data" alt="Menschen A1/2. Kursbuch mit MP3 zum Kursbuch" src="https://storage.aggregion.com/api/files/3306b9fdcdc528a634d29c3f1a0badca1a570f3b41b980e760e6b48aa5b8afea/shared/data" />
+
+        </md-grid-tile><!-- end ngRepeat: book in main.books --><md-grid-tile ng-repeat="book in main.books" ng-click="main.clickBook( book.id )" class="book ng-scope">
+            <img class="pull-left" ng-src="https://storage.aggregion.com/api/files/0aef103b9fb89f37a50a9e76d7da7ae0b4fd3ad2330e74122ce25dd515dcb061/shared/data" alt="Menschen A1/2. Arbeitsbuch mit MP3" src="https://storage.aggregion.com/api/files/0aef103b9fb89f37a50a9e76d7da7ae0b4fd3ad2330e74122ce25dd515dcb061/shared/data" />
+
+        </md-grid-tile><!-- end ngRepeat: book in main.books -->
+    </md-grid-list>
+
+
+</div>
+</div>
+
+
+
+
+</body></html>
