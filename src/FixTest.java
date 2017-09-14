@@ -96,11 +96,11 @@ public class FixTest extends Helper {
         Assert.assertEquals(url(), "http://rulkov.ru/qa/");
     }
 
-    @Test(description = "Проверка валидации", priority = 2)
+    @Test(description = "Проверка валидации, дизейбла кнопок, работы с нестандартными значениями", priority = 2)
     public void negativeTest() throws InterruptedException {
         setUp();
         PageObjects page = new PageObjects();
-        $(page.headerLogin).click();
+        $(page.headerAddition).click();
         $(page.loginInput).setValue(login);
         $(page.btnLogin).has(cssClass("btn-danger"));
         $(page.btnLogin).shouldBe(disabled);
@@ -128,6 +128,14 @@ public class FixTest extends Helper {
         $(page.btnForward).click();
         Thread.sleep(2000);
         $(page.preloaderText).should(disappear);
+        $(page.check2).shouldBe(text(strangeVal2));
+        $(page.check3).shouldBe(text(strangeVal3));
         Assert.assertEquals(Integer.parseInt($(page.result).getText()), strangeSum);
+        $(page.headerLogin).click();
+        $(page.headerAddition).click();
+        $(page.greeting).shouldBe(text("Привет, " + strangeLogin + "!"));
+        $(page.headerLogout).click();
+        $(page.headerAddition).click();
+        $(page.loginTitle).shouldBe(text("Login"));
     }
 }

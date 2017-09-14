@@ -15,6 +15,8 @@ public class PageObjects {
     public By allImg = By.xpath("//img");
 
     //Login page
+    public By loginTitle = By.xpath("//h2[text()='Login']");
+
     public By loginInput = By.id("username");
 
     public By loginReq = By.xpath("//form/div[1]/span");
