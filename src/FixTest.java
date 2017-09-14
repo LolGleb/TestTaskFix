@@ -106,11 +106,13 @@ public class FixTest extends Helper {
         $(page.btnLogin).shouldBe(disabled);
         $(page.loginInput).clear();
         $(page.loginReq).shouldBe(text("Поле Логин обязательное для заполнения"));
+        $(page.loginInput).shouldHave(cssClass("ng-invalid"));
         $(page.passwordInput).setValue(pass);
         $(page.btnLogin).has(cssClass("btn-danger"));
         $(page.btnLogin).shouldBe(disabled);
         $(page.passwordInput).clear();
         $(page.passReq).shouldBe(text("Поле Пароль обязательное для заполнения"));
+        $(page.passwordInput).shouldHave(cssClass("ng-invalid"));
         $(page.btnLogin).has(cssClass("btn-danger"));
         $(page.btnLogin).shouldBe(disabled);
         $(page.loginInput).setValue(strangeLogin);
