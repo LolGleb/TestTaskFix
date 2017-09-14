@@ -17,7 +17,11 @@ public class PageObjects {
     //Login page
     public By loginInput = By.id("username");
 
+    public By loginReq = By.xpath("//form/div[1]/span");
+
     public By passwordInput = By.id("password");
+
+    public By passReq = By.xpath("//form/div[2]/span");
 
     public By btnLogin = By.xpath("//button[text()='Login']");
 

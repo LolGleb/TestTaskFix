@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c49041cb-382d-4820-b52b-022d676d661a" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/1505248636462.0.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/1505248636462.0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/1505250675692.0.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/1505250675692.0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/1505250738564.0.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/1505250738564.0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/1505290138465.0.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/1505290138465.0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/1505292566855.0.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/1505292566855.0.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Helper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/FixTest.class" afterPath="$PROJECT_DIR$/target/classes/FixTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FixTest.java" afterPath="$PROJECT_DIR$/src/FixTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PageObjects.java" afterPath="$PROJECT_DIR$/src/PageObjects.java" />
@@ -34,9 +26,33 @@
       <file leaf-file-name="FixTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/FixTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="95" column="16" lean-forward="false" selection-start-line="95" selection-start-column="16" selection-end-line="95" selection-end-column="16" />
+            <state relative-caret-position="238">
+              <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-309">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Helper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Helper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="259">
+              <caret line="19" column="74" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="74" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -44,14 +60,27 @@
       <file leaf-file-name="PageObjects.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PageObjects.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-408">
-              <caret line="7" column="59" lean-forward="false" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="59" />
+            <state relative-caret-position="-374">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>have</find>
+      <find>send</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -64,7 +93,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/Variables.java" />
         <option value="$PROJECT_DIR$/src/PageObjects.java" />
+        <option value="$PROJECT_DIR$/src/Helper.java" />
         <option value="$PROJECT_DIR$/src/FixTest.java" />
       </list>
     </option>
@@ -109,6 +140,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestTaskFix" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestTaskFix" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -120,7 +165,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="js.eslint.eslintPackage" value="" />
   </component>
-  <component name="RunManager" selected="JUnit.FixTest.positiveTest">
+  <component name="RunManager" selected="TestNG.FixTest">
     <configuration default="false" name="FixTest.userCanLoginByUsername" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="TestTaskFix" />
@@ -182,6 +227,62 @@
       </option>
       <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="FixTest.negativeTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="TestTaskFix" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FixTest" />
+      <option name="METHOD_NAME" value="negativeTest" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="false" name="FixTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="TestTaskFix" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FixTest" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -557,16 +658,20 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="3">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.FixTest.userCanLoginByUsername" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.FixTest" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.FixTest.positiveTest" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.FixTest.negativeTest" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.FixTest" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.FixTest.positiveTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.FixTest.userCanLoginByUsername" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.FixTest" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="TestNG.FixTest" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.FixTest.negativeTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.FixTest.positiveTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.FixTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.FixTest.userCanLoginByUsername" />
       </list>
     </recent_temporary>
   </component>
@@ -580,48 +685,48 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1505334877249</updated>
-      <workItem from="1505334880715" duration="5708000" />
+      <workItem from="1505334880715" duration="20478000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FixTest_positiveTest - 2017.09.14 at 01h 00m 49s.xml">
-      <configuration name="FixTest.positiveTest" configurationId="JUnit" />
+    <history-entry file="FixTest - 2017.09.14 at 21h 45m 16s.xml">
+      <configuration name="FixTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FixTest_positiveTest - 2017.09.14 at 01h 04m 48s.xml">
-      <configuration name="FixTest.positiveTest" configurationId="JUnit" />
+    <history-entry file="FixTest - 2017.09.14 at 21h 48m 14s.xml">
+      <configuration name="FixTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FixTest_positiveTest - 2017.09.14 at 01h 05m 18s.xml">
-      <configuration name="FixTest.positiveTest" configurationId="JUnit" />
+    <history-entry file="FixTest_negativeTest - 2017.09.14 at 16h 12m 29s.xml">
+      <configuration name="FixTest.negativeTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FixTest_positiveTest - 2017.09.14 at 01h 07m 07s.xml">
-      <configuration name="FixTest.positiveTest" configurationId="JUnit" />
+    <history-entry file="FixTest_negativeTest - 2017.09.14 at 16h 14m 42s.xml">
+      <configuration name="FixTest.negativeTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FixTest_positiveTest - 2017.09.14 at 01h 08m 22s.xml">
-      <configuration name="FixTest.positiveTest" configurationId="JUnit" />
+    <history-entry file="FixTest_negativeTest - 2017.09.14 at 21h 11m 15s.xml">
+      <configuration name="FixTest.negativeTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FixTest_userCanLoginByUsername - 2017.09.14 at 00h 52m 27s.xml">
-      <configuration name="FixTest.userCanLoginByUsername" configurationId="JUnit" />
+    <history-entry file="FixTest_negativeTest - 2017.09.14 at 21h 11m 25s.xml">
+      <configuration name="FixTest.negativeTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FixTest_userCanLoginByUsername - 2017.09.14 at 00h 53m 08s.xml">
-      <configuration name="FixTest.userCanLoginByUsername" configurationId="JUnit" />
+    <history-entry file="FixTest_negativeTest - 2017.09.14 at 21h 32m 23s.xml">
+      <configuration name="FixTest.negativeTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FixTest_userCanLoginByUsername - 2017.09.14 at 00h 53m 59s.xml">
-      <configuration name="FixTest.userCanLoginByUsername" configurationId="JUnit" />
+    <history-entry file="FixTest_negativeTest - 2017.09.14 at 21h 37m 30s.xml">
+      <configuration name="FixTest.negativeTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FixTest_userCanLoginByUsername - 2017.09.14 at 00h 55m 25s.xml">
-      <configuration name="FixTest.userCanLoginByUsername" configurationId="JUnit" />
+    <history-entry file="FixTest_negativeTest - 2017.09.14 at 21h 38m 23s.xml">
+      <configuration name="FixTest.negativeTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FixTest_userCanLoginByUsername - 2017.09.14 at 00h 59m 07s.xml">
-      <configuration name="FixTest.userCanLoginByUsername" configurationId="JUnit" />
+    <history-entry file="FixTest_negativeTest - 2017.09.14 at 21h 40m 36s.xml">
+      <configuration name="FixTest.negativeTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5708000" />
+    <option name="totallyTimeSpent" value="20478000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -638,8 +743,9 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -650,7 +756,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -684,19 +789,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Test.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/PageObjects.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-408">
-          <caret line="7" column="59" lean-forward="false" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="59" />
+        <state relative-caret-position="-374">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Helper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="19" column="74" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-309">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FixTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="95" column="16" lean-forward="false" selection-start-line="95" selection-start-column="16" selection-end-line="95" selection-end-column="16" />
-          <folding />
+        <state relative-caret-position="238">
+          <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
